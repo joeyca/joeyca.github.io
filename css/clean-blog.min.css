@@ -249,3 +249,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.prevNext{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  color: black;
+}

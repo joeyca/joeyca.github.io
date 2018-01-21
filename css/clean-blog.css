@@ -585,3 +585,10 @@ footer {
   body {
     webkit-tap-highlight-color: #6eb8bf;
   }
+
+  .prevNext{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    color: black;
+  }
