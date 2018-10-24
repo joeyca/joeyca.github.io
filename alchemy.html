@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
 
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
   <head>
 
     <meta charset="utf-8">
@@ -54,7 +68,7 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="post-heading">
               <h2>AlchemyX</h2>
-              <span class="meta">Mobile Application</span>
+              <span class="meta">Website Redesign</span>
             </div>
           </div>
         </div>
@@ -67,15 +81,18 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <h2 class="section-heading">Introduction</h2>
-            <p>AlchemyX is a startup generator founded at UC San Diego that wants to bring innovation from campus. AlchemyX is looking to rebrand themselves with a website redeisgn and mobile application that aligns more closey with their mission. </p>
+            <p>AlchemyX is a startup generator founded at UC San Diego that brings students' ideas to life. AlchemyX is looking to rebrand themselves with a website redeisgn and mobile application that aligns more closey with their mission. </p>
 
             <h2 class="section-heading">The Challenge</h2>
-            <p>In our needfinding process, we discovered one of the most important resources college students would want when creating a startup was resources. From this, we surveyed 100 college students about their trust in AlchemyX, the current services provided, and what other resources they would like to see provided. We found that there was a lack of trust in AlchemyX, there was no 'story,' and the resources listed on the current site were not specific enough. Our goal is have college students trust that AlchemyX will help them transform their ideas into startups.</p>
+            <p>In our needfinding process, we discovered one of the most important resources college students would want when creating a startup was resources. From this, we surveyed 100 college students about their trust in AlchemyX, the current services provided, and what other resources they would like to see provided. We found there was a lack of trust in AlchemyX because there was no 'story' and the resources and services offered were not specific enough. Our goal was to gain college students' trust in AlchemyX and its ability to help students transform their ideas into startups.</p>
 
             <h2 class="section-heading">My Role</h2>
-            <p>I led the user research and the design of the mobile application, in addition to contributing to the design of the website redesign.</p>
+            <p>As one of the designers on the newly formed Design team, I led the user research and design of the mobile application, in addition to contributing to the design of the website redesign.</p>
 
             <h2 class="section-heading">The Discovery</h2>
+            <br>
+            <h4>Branding</h4>
+            <br>
             <a href="#">
               <img class="img-fluid" src="img/portfolio/AffinityAlchemy.png" alt="">
             </a>
@@ -92,13 +109,46 @@
             <p>Our
               <a href="https://www.figma.com/file/BJi81XnQ0zwpfUKqF1LJBlzQ/Stylescape-AlchemyX">stylescape</a> for AlchemyX.</p>
 
+            <h4>Research</h4>
+            <p>Before I started designing, I did a competitive analysis with Y Combinator, Harvard i-Lab, and The Basement to understand how they approached their website. We found our competitors had an 'About' section, success measurements, a simple interest submission form, and a lot of photos. </p>
+            <p>For AlchemyX, we felt telling their story through an 'About' page and adding the interest submission form at the navigation bar were important.</p>
+              <div class="row">
+              <div class="column">
+                <img src="img/portfolio/HomeSketch.jpg" alt="Landing Page Sketches" style="width:203%">
+                <span class="caption text-muted">A few iterations of our landing page (right) and About Us page (left).</span>
+              </div>
+              <div class="row>"
+              <div class="column">
+                <img src="img/portfolio/StartUpsSketch.jpg" alt="Start Up Sketch" style="width:100%">
+                <span class="caption text-muted">Sketches of our organizing our Start Up page.</span>
+              </div>
+              <p>I focused on designing and developing our Start Up page in our website redesign effort. From my competitive analysis, I discovered categorizing our startups based on their stages, creating a filtering system, and providing a quick bio of each startup upon hovering would allow for the user to easily learn about the startups.</p>
+              <div class="row">
+                <div class="column">
+                  <img src="img/portfolio/StartUpLoFi.png" alt="About Us Sketch" style="width:200%">
+                  <span class="caption text-muted">A quick sketch of our About Us page.</span>
+                </div>
+                <div class="row">
+                <div class="column">
+                  <img src="img/portfolio/StartUp2LoFi.png" alt="Landing Page Sketches" style="width:196%">
+                  <span class="caption text-muted">A few iterations of our landing page.</span>
+                </div>
+            </div>
+
+            <h4>User Testing</h4>
+            <p>I surveyed 6 participants to test our low-fidelty website prototype and discovered users were able to successfully complete our tasks without any problems. Since many of our competitors only had a mobile responsive site, we decided to base our mobile application on our website prototype. I conducted user testing on our low-fidelty prototype, <a href="https://invis.io/J4FGFVVQSF8#/274840572_Mobile_Aboutus">AlchemyX,</a> and asked 8 participants to complete a set of tasks. The tasks include defining what AlchemyX does, telling us what information you found about any startup, and submitting your own idea. We discovered some key painpoints:
+            <ul style="list-style-type:disc">
+            <li>A lot of scrolling</li>
+            <li>Navigating to other startups from the startup profile screen was inconvenient</li>
+            <li>Participants expressed they would use the website instead of the mobile application out of convenience</li>
+          </ul>
             <h2 class="section-heading">The Deliverables</h2>
-            <p>Driven by our findings, we created a mobile application that tells AlchemyX's story and how it creates opportunities for both students wanting to join a startup and to create their own.</p>
+            <p>Driven by our findings, we decided to focus on the website redesign and created a redesign that tells AlchemyX's story and how it creates opportunities for both students wanting to join a startup and to create their own.</p>
 
            <h2 class="section-heading">The Future</h2>
-            <p>We are currently working on the final mobile application with the design team, CEO, and CFO and will be releasing it soon.</p>
-            <p>Our low-fidelty prototype,
-              <a href="https://invis.io/J4FGFVVQSF8#/274840572_Mobile_Aboutus">AlchemyX</a>.</p>
+            <p>We are currently working on the final website redesing with the design team, CEO, and CFO and will be releasing it soon.</p>
+            <div class = "prevNext">
+            <a href="index.html">WORK</a> / <a href="tutornow.html">NEXT</a></div>
           </div>
         </div>
       </div>

@@ -75,20 +75,38 @@
             <h2 class="section-heading">My Role</h2>
             <p>I created the paper prototypes and user testing script, in addition to user testing and contributing to the development. </p>
             <h2 class="section-heading">The Discovery</h2>
-                <p>From our user interviews, we found many students in group messages would not go back to read the previous messages and just read the last five or so until, they were caught up with what was being currently talked about. So a lot of previous suggestions were lost.</p>
+            <br>
+            <h4>Research</h4>
+            <p>Before we started designing, we surveyed 20 college students about their process in making plans with their friends and family. We found that Facebook Messenger, Facebook Events, texting, and WeChat were the most popular platforms to make plans. From our user interviews, we found many students would not go back to read the previous messages and just read the last five or so until, they were caught up with what was being currently talked about. So a lot of previous suggestions were lost. Our competitive analysis on Facebook Messenger, Facebook Events, texting, and WeChat all encompassed a messaging feature and a grouping feature. With the exception of Facebook Events, you could not create a quick poll of options to vote on. You could not comment or vote on someone's ideas.</p>
+            <p>For Bucket, it was important to incorporate a comment and voting system, features that would help college students organize their plans efficiently.</p>
+
             <a href="#">
               <img class="img-fluid" src="img/portfolio/Bucket5.png" alt="">
             </a>
-                <p>We started off with this first prototype that featured a chat room with a sidebar displaying friends and a navigation bar with activities and their popularity. However, after initial testing, this prototype was still not solving the issue of lost content in group messaging. We changed our prototype to activity cards with Trello as our inspiration. With our second prototype, the user is initially logged into their own personal bucket list, which contains tags they can personalize. The user can add activities using the Yelp API integrated search to each tag created. Additionally, the user can also create groups with their friends, where the group can create tags and add activities to each tag seamlessly.</p>
+            <span class="caption text-muted">Our first wireframe sketch that features a top bar to show what plans are most upvoted in the messaging thread.</span>
+
+            <br>
+            <h4>User Testing</h4>
+            <p>We started off with this first prototype that featured a chat room with a sidebar displaying friends and a navigation bar with activities and their popularity. However, after initial testing, this prototype was still not solving the issue of lost content in group messaging. Based off of the user testing of 9 participants, we found that although users liked the upvotingg feature, they would like to comment on plan sugggestions because often times, they would like to go with a plan idea for a future hangout. We changed our prototype to activity cards using Trello as our inspiration because we have found it very helpful to manage our own development of this project. With our second prototype, the user is initially logged into their own personal bucket list, which contains tags they can personalize. The user can add activities using the Yelp API integrated search to each tag created. Additionally, the user can also create groups with their friends, where the group can create tags and add activities to each tag seamlessly.</p>
                 <a href="#">
-                  <img class="img-fluid" src="img/portfolio/Wireframe.png" alt="">
+                  <img class="img-fluid" src="img/portfolio/Wireframe.png" alt="First iteration">
                 </a>
-                <p>Our initial assumption of our prototype being intuitive was wrong. Some obstacles we faced were confusion between creating buckets and creating groups because when logged in, each group's navigation bar has 'Add Friends,' 'Groups', and 'Settings.' Based on user feedback, there was a lot of confusion between groups and tags, so we chose to have 'Groups' on the navigation bar to reflect the group the user is currently in instead. This not only reduces confusion but this design choice provides the user more feedback. Initially, 'tags' were named 'buckets' but from our AB testing, the test with the name 'Tag' had more tags created so we concluded that version with 'Tag' was most straightforward. User surveys indicated that users thought buckets were groups, instead of the list we were intending it to be. To reduce the confusion, first time users saw a popup help modal that would teach them how to create a tag and group. Our user testing showed this popup modal helped our users significantly and allowed them to navigate around the application more efficiently.</p>
+                <span class="caption text-muted">Our second iteration features commenting and categorizing plan suggestions.</span>
+
+                <br>
 
                 <a href="#">
                   <img class="img-fluid" src="img/portfolio/Wireframe2.png" alt="">
                 </a>
-                <p>We decided to simplify the cards and to remove the commenting feature because we realized comments quickly became lost, just like messages in group chats.</p>
+                <span class="caption text-muted">Our third iteration based on the feedback of our second prototype featuring groups.</span>
+                <p>Our initial assumption of this improved prototype being intuitive was wrong based on the user testing of 9 participants. Some obstacles we faced were confusion between creating buckets and creating groups because when logged in, each group's navigation bar has 'Add Friends,' 'Groups', and 'Settings.' </p>
+                <p>After many iterations and user testing, we found some key painpoints:
+                  <ul style="list-style-type:disc">
+                  <li>Confusion between 'Groups' and 'Buckets'</li>
+                  <li>Overwhelmed and did not know where to begin</li>
+                  <li>Comments were being lost</li>
+                </ul>
+                  To address our painpoints, we chose to rename 'Buckets' to 'Tags' and to have 'Groups' on the navigation bar to reflect the group the user is currently in. Our solution was driven by our AB testing, the test with the name 'Tag' had more tags created so we concluded that version with 'Tag' was most straightforward. We wanted to make a good first impression, not one that was overwhelming, so first time users saw a popup help modal that would teach them how to create a tag and group. Additional user testing showed this popup modal helped our users significantly and allowed them to navigate around the application more efficiently.</p>
 
                 <h2 class="section-heading">The Deliverables</h2>
                 <p>Our discoveries made our original idea pivot to a bucket list concept. Our final product is a web application that allows users to collaboratively make and complete bucket lists with friends. The application was created with CSS, HTML, JavaScript, jQuery, Node.js, React, mongoDB, and Yelp API.</p>
